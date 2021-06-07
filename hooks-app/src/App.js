@@ -3,6 +3,7 @@ import './App.css';
 import ClassCountDomUpdate from './components/ClassCountDomUpdate';
 import ClassMouseMov from './components/ClassMouseMov';
 import CounterClass from './components/CounterClass';
+import DisplayToggle from './components/DisplayToggle';
 import EffectHookOne from './components/EffectHookOne';
 import HooksCounter from './components/HooksCounter';
 import HooksCounterArray from './components/HooksCounterArray';
@@ -13,7 +14,8 @@ import HooksMouse from './components/HooksMouse';
 function App() {
   return (
     <div className="App">
-      <HooksMouse />
+      <DisplayToggle />
+      {/* <HooksMouse /> */}
       {/* <ClassMouseMov /> */}
       {/* <EffectHookOne /> */}
       {/* <ClassCountDomUpdate /> */}
